@@ -1,0 +1,128 @@
+h1, p, body {
+    padding: 0%;
+    margin: 0%;
+}
+
+img {
+    pointer-events: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body {
+    background-image: url("./Images/landscape_2x-100.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Cambay', sans-serif;
+    padding-bottom: 100%;
+}
+
+nav > a, nav > a:visited {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    background-color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fc4e56;
+    z-index: 1;
+    max-width: 100%;
+}
+
+article {
+    display: block;
+    width: 90%;
+    left: 1.8%;
+    background-color: #fef3eb;
+    margin-top: 10%;
+    padding-top: 3em;
+    padding-bottom: 10em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 3em;
+}
+
+#Map {
+    float: left;
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.Title {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+article > p {
+    font-size: 20px;
+}
+
+#MainTitle, #HistoryTitle {
+    margin-left: 4%;
+}
+
+#IntroMain {
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+#History {
+    background-color: #d1f7fc;
+}
+
+#HistoryTitle {
+    margin-left: 4%;
+    margin-bottom: 30px;
+}
+
+#Raven {
+    width: 30%;
+}
+
+#Longboat {
+    width: 30%;
+    margin-left: 22%;
+}
+
+#HistoryExcerpt {
+    font-size: 18px;
+    text-align: center;
+    margin: 2% 8%;
+}
+
+#Lindanise {
+    width: 40%;
+}
+
+#Flag {
+    margin-left: 2.3%;
+    width: 53%;
+}
+
+#Lindanise, #Flag {
+    margin-bottom: 2%;
+}
+
+section.History {
+    margin: 0% 8%;
+    text-align: justify;
+    font-size: 20px;
+
+}
